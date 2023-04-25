@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #dcaafe;
+  }
+  
+  .secao-formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }
+  
+  .container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 90%;
+    height: 500px;
+  }
+  
+  .img {
+    background: url(../img/login.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    width: 65%;
+  }
+  
+  .login {
+    background-color: #fff;
+    width: 35%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  
+    width: 90%;
+    height: 50%;
+  }
+  
+  .campo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .campo label {
+    margin-left: 20px;
+  }
+  
+  .campo input {
+    all: unset;
+    background-color: #dcaafe;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 20px;
+  }
+  
+  .form .campo+.campo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .rememberme label {
+    font-size: 14px;
+    color: #000000c0;
+  }
+  
+  .btn-login {
+    all: unset;
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: rgb(180, 7, 180);
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .cadastrar {
+    all: unset;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgba(128, 0, 128, 0.562);
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .recover {
+    all: unset;
+    font-size: 14px;
+    cursor: pointer;
+    color: red;
+  }

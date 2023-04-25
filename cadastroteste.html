@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastroteste.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="logado"></h1>
+
+    <div id="logo">
+
+        <h2>WELOVEMUSIC</h2>
+
+    </div>
+
+
+    <div class='container'>
+        <div class='card'>
+          <h1> Cadastro</h1>
+          
+          <div id='msgError'></div>
+          <div id='msgSuccess'></div>
+          
+                  <div class="insertCad">
+                     <input type="text" id="nome" placeholder="insira seu nome e sobrenome " required>
+                     <label id="nomeLabel" for="nome"></label>
+                  </div>
+      
+                  <div class="insertCad">
+                     <input type="text" id="usuario" placeholder="insira seu nome de usuario" required>
+                     <label id="usuarioLabel" for="usuario"></label>
+                  </div>
+                  
+                  <div class="insertCad">
+                     <input type="password" id="senha" placeholder="digite uma senha" required>
+                     <label id="senhaLabel" for="senha"></label>
+                     
+                  </div>
+      
+                  <div class='cadbtn'>
+                     <button onclick='cadastrar()'>Cadastrar</button>
+                  </div>
+
+                  <script src="cadastroteste.js"></script>
+      
+          
+        </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  
+  body {
+    height: 100vh;
+  }
+  
+  /* botão de expandir lista*/
+  
+  /*.btn-expandir{ width: 100%;
+    padding-left: 10px;
+  }
+  /* botão de expandir o filtrozinho*/
+  /*.btn-expandir > i{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  /*customização da lista*/
+  
+  ul {
+    height: 100%;
+    list-style-type: none;
+  }
+  
+  /* cor que aparece quando passa o mouse em cima*/
+  ul li.item-menu {
+    transition: .2s;
+  }
+  
+  ul li.item-menu:hover {
+    background: rgb(175, 99, 236);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  
+  }
+  
+  
+  /*config dos icones da lista*/
+  ul li.item-menu a {
+  
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 4%;
+    display: flex;
+    margin-bottom: 30px;
+    line-height: 50px;
+  }
+  
+  ul li.item-menu a .txt-link {
+    margin-left: 30px;
+  
+  
+  }
+  
+  
+  ul li.item-menu a .icon {
+    font-size: 30px;
+    margin-left: 0;
+  }
+  
+  /*----------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------
+  ----------------------------------
+  PAGINA PRINCIPAL-----------------------/////*/
+  
+  
+  header {
+    width: 100%;
+    min-height: 50px;
+    background-image: linear-gradient(to right, hsl(276, 100%, 35%),
+        rgb(245, 48, 245),
+        orange);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container-logo {
+    color: white;
+    padding-left: 30px;
+    font-size: 10px;
+  
+  }
+  
+  .logo {
+    font-size: 30px;
+  }
+  
+  .login {
+    padding-right: 50px;
+    padding-top: 5px;
+  }
+  
+  .logoimagem {
+    font-size: 20px;
+  }
+  
+  .container-logo {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  /*888888888888888888 carrosel?***************
+  /*****/
+  
+  .container-carousel {
+    width: 100%;
+    max-height: 800px;
+  
+  }
+  
+  /* .carousel-inner{ height: 50em;} */
+  
+  
+  
+  
+  /*88888888888 banner apresentação*/
+  
+  .banner-home {
+    width: 100%;
+  }
+  
+  .banner-apresentacao {
+    width: 100%;
+  
+  }
+  
+  
+  /*88888 galeria*/
+  
+  .galeria {
+    margin: flex;
+    margin-left: 200px;
+    margin-top: 150px;
+  
+    height: 80px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    border-radius: 10%;
+    font-size: 30px;
+  }
+  
+  .fundogaleria {
+    background: rgb(224, 156, 255);
+  }
+  
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  #botaoroxo {
+    background: rgb(139, 36, 199);
+    border-color: rgb(139, 36, 199);
+  
+  }
+  
+  .dropdown-item {
+    background: white;
+  
+  }
+  
+  .perfil {
+    background-color: rgb(91, 22, 105);
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    color: white;
+    font-size: 40px;
+  }
+  
+  .banner-apresentacao {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/banner.png");
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    color: #fff;
+    max-width: 75%;
+  }
+  
+  .banner-content h1 {
+    color: #000;
+  }
+  
+  .card-pessoa figcaption h{
+    text-decoration: none;
+  }
